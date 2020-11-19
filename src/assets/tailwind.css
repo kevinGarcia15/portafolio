@@ -2,15 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn{
-    @apply py-2 px-4 rounded;
-}
-.btn-blue{
-    @apply bg-blue-500 text-white;
-}
-.btn-blue:hover{
-    @apply bg-blue-700;
-}
 .backgound-primary{
     background-color: #332C38;
+}
+.color-secondary{
+    background-color: #F64C72;
 }
