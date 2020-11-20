@@ -2,8 +2,8 @@ import React from "react";
 
 function LandinPage() {
   return (
-    <div className="grid grid-cols-12 h-xxl xl:mx-32">
-      <div className="col-span-12 lg:col-span-6 h-full">
+    <div className="grid grid-cols-12 lg:h-xxl xl:mx-32">
+      <div className="col-span-12 md:col-span-6 h-96 lg:h-full">
         <div className="flex flex-col justify-center items-center lg:items-start h-full">
           <div className="flex">
             <h1 className="text-white text-6xl tracking-widest font-bold border-t-4 border-red-700 mr-4">
@@ -83,11 +83,11 @@ function LandinPage() {
         </div>
       </div>
 
-      <div className="col-span-12 lg:col-span-6 h-full mt-8 lg:mt-0">
+      <div className="col-span-12 md:col-span-6 h-96 lg:h-full md:mt-8 lg:mt-0">
         <div className="flex flex-col justify-center items-center h-full">
-          <div class="card hover:shadow-lg absolute z-10">
+          <div className="card hover:shadow-lg absolute z-10">
             <img
-              className="w-full h-full md:w-96 md:h-96 sm:h-48 object-cover rounded"
+              className="w-full h-56 lg:w-96 lg:h-96 md:w-64 object-cover rounded"
               src="../img/porfile.jpeg"
               alt="Porfile"
             />

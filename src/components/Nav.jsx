@@ -19,7 +19,7 @@ function Nav() {
             DevTom
           </a>
         </h1>
-        <div className="cursor-pointer md:hidden" b id="burger" onClick={handleNav}>
+        <div className="cursor-pointer md:hidden" id="burger" onClick={handleNav}>
           <svg
             className="w-6 text-white"
             xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ function Nav() {
             <a href="/">Home</a>
           </li>
           <li className="text-red-700 text-lg px-4 py-1 mt-1 rounded font-bold hover:bg-gray-800 tracking-widest md:text-white">
-            <a href="/">About</a>
+            <a href="#about">About</a>
           </li>
           <li className="text-red-700 text-lg px-4 py-1 mt-1 rounded font-bold hover:bg-gray-800 tracking-widest md:text-white">
             <a href="/">Projects</a>
