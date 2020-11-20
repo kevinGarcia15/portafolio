@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="grid grid-cols-12" id="about">
       <div
-        className="col-span-12 md:col-span-6 hidden md:block w-72 h-72"
+        className="col-span-12 md:col-span-6 hidden md:block w-72 h-72 lg:w-96 lg:h-96"
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
@@ -12,7 +12,7 @@ function About() {
         <img
           className="lg:w-96 lg:h-96 object-cover rounded absolute z-10"
           src="../img/porfile.jpeg"
-          alt="picture"
+          alt="porfile about"
         />
         <div className="ml-12 mt-12 w-96 h-96 border-4 rounded-lg border-black relative z-0 hidden lg:block"></div>
       </div>

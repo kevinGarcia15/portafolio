@@ -12,7 +12,8 @@ module.exports = {
         '96': '24rem',
       },
       height: {
-        xxl:'90vh'
+        xxl:'90vh',
+        screen1_2:'50vh'
       }
     },
   },

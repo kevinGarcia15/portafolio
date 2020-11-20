@@ -37,7 +37,7 @@ function Nav() {
         </div>
       </div>
 
-      <nav className=""> 
+      <nav> 
         <ul className={classNav} id="menu">
           <li className="text-red-700 text-lg px-4 py-1 mt-1 rounded font-bold hover:bg-gray-800 tracking-widest md:text-white">
             <a href="/">Home</a>
@@ -46,7 +46,7 @@ function Nav() {
             <a href="#about">About</a>
           </li>
           <li className="text-red-700 text-lg px-4 py-1 mt-1 rounded font-bold hover:bg-gray-800 tracking-widest md:text-white">
-            <a href="/">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className="text-red-700 text-lg px-4 py-1 mt-1 rounded font-bold hover:bg-gray-800 tracking-widest md:text-white">
             <a href="/">Contact</a>
