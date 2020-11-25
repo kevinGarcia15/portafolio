@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 
 import "aos/dist/aos.css";
+import Skills from "./components/Skills";
 
 function App() {
   useEffect(() => {
@@ -25,7 +26,10 @@ function App() {
       </div>
       <div className="px-4 py-6 backgound-primary xl:px-64 lg:px-56">
         <Projects/>
-      </div>      
+      </div>  
+      <div className="px-4 py-6 xl:px-64 lg:px-56 lg:h-screen1_2">
+        <Skills/>
+      </div>    
     </div>
   );
 }
