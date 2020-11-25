@@ -85,7 +85,7 @@ function LandinPage() {
 
       <div className="col-span-12 md:col-span-6 h-96 lg:h-full md:mt-8 lg:mt-0">
         <div className="flex flex-col justify-center items-center h-full">
-          <div className="card hover:shadow-lg absolute z-10">
+          <div className="hover:shadow-lg absolute z-10">
             <img
               className="w-full h-56 lg:w-96 lg:h-96 md:w-64 object-cover rounded"
               src="../img/porfile.jpeg"

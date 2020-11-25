@@ -7,22 +7,22 @@ function Projects() {
         Projects
       </h1>
 
-      <div className="mt-8 grid lg:grid-cols-3 gap-16 justify-center">
-        <div
-          className="card hover:shadow-lg"
-          data-aos="fade-up"
-        >
-          <img
-            src="img/FoodNinja.png"
-            className="w-full h-32 sm:h-48 object-cover"
-            alt="almond"
-          />
-          <div className="m-4">
-            <span className="font-bold">Reciples Fo Ninja</span>
-            <span className="block text-gray-500 text-sm">
-              A site for learn Tailwind css
-            </span>
+      <div className="mt-8 grid lg:grid-cols-12 md:grid-cols-12 gap-16 justify-center">
+        <div className="card lg:col-span-4 hover:shadow-lg" data-aos="fade-up">
+          <div>
+            <img
+              src="img/FoodNinja.png"
+              className="w-full h-48 object-cover"
+              alt="almond"
+            />
+            <div className="m-4">
+              <span className="font-bold">Recipies Food Ninja</span>
+              <span className="block text-gray-500 text-sm">
+                A site for learn Tailwind css
+              </span>
+            </div>
           </div>
+
           <div className="flex justify-between rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider">
             <a href="https://learntailwindcss.web.app/" target="_blanck">
               <svg
@@ -60,23 +60,22 @@ function Projects() {
           </div>
         </div>
 
-        <div
-          className="card hover:shadow-lg"
-          data-aos="fade-up"
-        >
-          <img
-            src="img/PlatziBadges.png"
-            className="w-full h-32 sm:h-48 object-cover"
-            alt="almond"
-          />
-          <div className="m-4">
-            <span className="font-bold">Platzi Badges</span>
-            <span className="block text-gray-500 text-sm">
-              A site using React
-            </span>
+        <div className="card lg:col-span-4 hover:shadow-lg" data-aos="fade-up">
+          <div>
+            <img
+              src="img/PlatziBadges.png"
+              className="w-full h-48 object-cover"
+              alt="almond"
+            />
+            <div className="m-4">
+              <span className="font-bold">Platzi Badges</span>
+              <span className="block text-gray-500 text-sm">
+                A site using React
+              </span>
+            </div>
           </div>
           <div className="flex justify-between rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider">
-            <a href="https://learntailwindcss.web.app/" target="_blanck">
+            <a href="https://platzibadges2020.web.app/" target="_blanck">
               <svg
                 className="w-6 inline-block"
                 xmlns="http://www.w3.org/2000/svg"
@@ -112,21 +111,20 @@ function Projects() {
           </div>
         </div>
 
-        <div
-          className="card hover:shadow-lg"
-          data-aos="fade-up"
-        >
-          <img
-            src="img/Totocalzado.png"
-            className="w-full h-32 sm:h-48 object-cover"
-            alt="totocalzado"
-          />
-          <div className="m-4">
-            <span className="font-bold">Totocalzado.com</span>
-            <span className="block text-gray-500 text-sm">
-              E-commerce for a shoes store. Created with php using framework
-              Codeigniter and vanilla css.
-            </span>
+        <div className="card lg:col-span-4 hover:shadow-lg" data-aos="fade-up">
+          <div>
+            <img
+              src="img/Totocalzado.png"
+              className="w-full h-48 object-cover"
+              alt="totocalzado"
+            />
+            <div className="m-4">
+              <span className="font-bold">Totocalzado.com</span>
+              <span className="block text-gray-500 text-sm">
+                E-commerce for a shoes store. Created with php using framework
+                Codeigniter and vanilla css.
+              </span>
+            </div>
           </div>
           <div className="flex justify-between rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider">
             <a href="https://totocalzado.com/" target="_blanck">

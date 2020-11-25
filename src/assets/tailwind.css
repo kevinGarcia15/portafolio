@@ -9,5 +9,5 @@
     background-color: #F64C72;
 }
 .card{
-    @apply flex flex-col justify-between bg-white rounded overflow-hidden shadow-md w-72 h-96;
+    @apply col-span-6 flex flex-col justify-between bg-white rounded overflow-hidden shadow-md w-72 h-96;
 }
