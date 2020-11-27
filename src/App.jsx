@@ -5,10 +5,11 @@ import About from "./components/About";
 import LandinPage from "./components/LandinPage";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
-
-import "aos/dist/aos.css";
 import Skills from "./components/Skills";
 import Timeline from "./components/Timeline";
+
+import "aos/dist/aos.css";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -33,7 +34,11 @@ function App() {
       </div>
       <div className="px-4 py-6 backgound-primary xl:px-64 lg:px-56">
         <Timeline/>
-      </div>      
+      </div>
+      <div className="px-4 py-6 xl:px-64 lg:px-56">
+        <Footer/>
+      </div>
+      
     </div>
   );
 }

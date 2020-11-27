@@ -49,7 +49,7 @@ function Nav() {
             <a href="#projects">Projects</a>
           </li>
           <li className="text-red-700 text-lg px-4 py-1 mt-1 rounded font-bold hover:bg-gray-800 tracking-widest md:text-white">
-            <a href="/">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
