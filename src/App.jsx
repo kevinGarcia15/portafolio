@@ -35,7 +35,7 @@ function App() {
       <div className="px-4 py-6 backgound-primary xl:px-64 lg:px-56">
         <Timeline/>
       </div>
-      <div className="px-4 py-6 xl:px-64 lg:px-56">
+      <div className="px-4 py-6 backgound-primary xl:px-64 lg:px-56">
         <Footer/>
       </div>
       

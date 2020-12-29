@@ -87,7 +87,7 @@ function LandinPage() {
         <div className="flex flex-col justify-center items-center h-full">
           <div className="hover:shadow-lg absolute z-10">
             <img
-              className="w-full h-56 lg:w-96 lg:h-96 md:w-64 object-cover rounded"
+              className="w-full h-auto lg:w-96 lg:h-96 md:w-64 object-cover rounded"
               src="../img/porfile.jpeg"
               alt="Porfile"
             />

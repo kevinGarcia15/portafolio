@@ -13,7 +13,7 @@ function Footer() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="black"
+              fill="white"
               width="28"
               height="28"
               viewBox="0 0 24 24"
@@ -24,7 +24,7 @@ function Footer() {
           <a href="https://wa.me/50257469663" target="_blanck" className="mr-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="black"
+              fill="white"
               width="28"
               height="28"
               viewBox="0 0 24 24"
@@ -40,7 +40,7 @@ function Footer() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="black"
+              fill="white"
               width="28"
               height="28"
               viewBox="0 0 24 24"
@@ -52,7 +52,7 @@ function Footer() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              fill="black"
+              fill="white"
               width="28px"
               height="28px"
             >
@@ -61,7 +61,7 @@ function Footer() {
             </svg>
           </a>
         </div>
-      <div className="text-lg font-bold text-gray-700 mt-10">
+      <div className="text-lg font-bold text-white mt-10">
         © {ano} DevTom. All Rights Reserved
       </div>
     </div>
