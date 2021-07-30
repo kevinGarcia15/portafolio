@@ -11,7 +11,7 @@ function About() {
       >
         <img
           className="lg:w-96 lg:h-96 object-cover rounded absolute z-10"
-          src="../img/porfile.jpeg"
+          src="../img/about.jpg"
           alt="porfile about"
         />
         <div className="ml-12 mt-12 w-96 h-96 border-4 rounded-lg border-black relative z-0 hidden lg:block"></div>
